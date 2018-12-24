@@ -1,0 +1,15 @@
+{
+  "name": "elastic-node",
+  "version": "1.0.0",
+  "description": "Elastic Search Client example",
+  "main": "main.js",
+  "dependencies": {
+    "elasticsearch": "^15.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo Hi!"
+  },
+  "author": "Thiago Humberto",
+  "license": "MIT"
+}
