@@ -11,7 +11,7 @@ var ididx = process.argv[3];
 client.index({
     index: indexname,
     id: ididx,
-    type: 'detail',
+    type: 'produt_detail',
     body: {
         "id": ididx,
         "order_date": "2018-12-25T00:01:00",
@@ -19,5 +19,7 @@ client.index({
         "value": 171.20
     }
 }, function (err, resp, status) {
-    console.log(resp);
+    if(err != undefined && status != 200) {
+        console.log(status);
+    }
 });
