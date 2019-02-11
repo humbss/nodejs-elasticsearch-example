@@ -9,7 +9,7 @@ Open connection.js, configure your Elasticsearch credentials.
 
 To create an index:
 
-```node create-topic.js customers```
+```node create-index.js customers```
 
 To delete an index:
 
